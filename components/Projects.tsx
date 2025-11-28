@@ -7,6 +7,88 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "Gocabs - Web3 Ride Hailing Aapp",
+    period: "2025",
+    description:
+      " GoCabs is a next-generation, event-focused shuttle booking application built",
+    tech: [
+      "React native",
+      "Expo",
+      "Zustand",
+      "Apollo",
+      "Typescript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "SolanaPay",
+      "Socket.io",
+      "Nativewind",
+      "Shadcn UI",
+      "GraphQL",
+    ],
+    tags: ["Frontend", "Backend"],
+    image: "/images/gocabs-shot.png",
+    website: false,
+    websiteUrl: "",
+    github: true,
+    frontendGithubUrl: "",
+    backendGithubUrl: "https://github.com/Chizihn/gocabs-api", // Backend repo URL
+  },
+  {
+    title: "PolkaPay",
+    period: "2025",
+    description:
+      "PolkaPay is a decentralized payment link platform built on Polkadot that allows merchants to accept cryptocurrency payments without intermediaries. Think Stripe Payment Links for Web3 - but with 0% platform fees, instant settlements, and unstoppable infrastructure.",
+    tech: ["Next.js", "Typescript", "Tailwind", "Polkadot.js", "Supabase"],
+    tags: ["Frontend"],
+    image: "/images/polkapay-shot.png",
+    website: true,
+    websiteUrl: "https://polkapay.vercel.app",
+    github: true,
+    frontendGithubUrl: "https://github.com/Chizihn/polkapay", // Frontend repo URL
+  },
+  {
+    title: "Nelo - Crypto banking",
+    period: "2025",
+    description:
+      "A modern Next.js application for seamless crypto payments and virtual card services through WhatsApp integration.",
+    tech: ["Next.js", "Typescript", "Framer motion"],
+    tags: ["Frontend"],
+    image: "/images/nelo-shot.png",
+    website: true,
+    websiteUrl: "https://nelo-base.vercel.app",
+    github: true,
+    frontendGithubUrl: "https://github.com/Chizihn/nelo-frontend", // Frontend repo URL
+  },
+  {
+    title: "Glubon",
+    period: "2025",
+    description: "A proptech saas",
+    tech: [
+      "React native",
+      "Expo",
+      "Zustand",
+      "Apollo",
+      "Typescript",
+      "Node.js",
+      "Express",
+      "AWS",
+      "Redis",
+      "Paystack",
+      "PostgreSQL",
+      "Prisma",
+      "Nativewind",
+      "Shadcn UI",
+      "GraphQL",
+    ],
+    tags: [],
+    image: "/images/glubon-shot.png",
+    website: false,
+    websiteUrl: "",
+    github: false,
+  },
+  {
     title: "Tanscrow - Secure Escrow Platform",
     period: "2024",
     description:

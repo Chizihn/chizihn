@@ -4,21 +4,9 @@ import { motion } from "framer-motion";
 
 const education = [
   {
-    institution: "AltSchool Africa",
-    program: "Cloud Engineering",
-    period: "2025 - Present",
-    logo: "A",
-  },
-  {
-    institution: "Techrity",
-    program: "Backend Engineering",
-    period: "2025",
-    logo: "S",
-  },
-  {
     institution: "University of Portharcourt",
     program: "Bachelor's Degree of Computer Science ",
-    period: "2021 - 2025",
+    period: " 2025",
     logo: "U",
   },
 ];
