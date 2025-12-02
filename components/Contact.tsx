@@ -75,7 +75,7 @@ export default function Contact() {
 
         <div className="border-t border-foreground/10 pt-8">
           <p className="text-foreground/70 mb-4">
-            Looking for specific services? Here's how I can help:
+            Looking for specific services? Here&apos;s how I can help:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-foreground/60 max-w-2xl mx-auto">
             <div>
