@@ -7,10 +7,41 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "Gocabs - Web3 Ride Hailing Aapp",
+    title: "Elaru - AI Agent Reputation Marketplace",
     period: "2025",
     description:
-      " GoCabs is a next-generation, event-focused shuttle booking application built",
+      "Decentralized reputation and payments for AI agents. Route your tasks to verifiable, high-trust agents secured by the blockchain.",
+    tech: [
+      "Next.js",
+      "GraphQL",
+      "Apollo",
+      "Typescript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Shadcn UI",
+      "Blockchain,",
+      "Ethers.js",
+      "Hardhat",
+      "Rainbow-kit",
+      "Wagmi",
+      "Thirdweb",
+      "Avalanche",
+    ],
+    tags: ["Frontend", "Backend", "Blockchain"],
+    image: "/images/elaru-shot.png",
+    website: false,
+    websiteUrl: "https://elaru.vercel.app",
+    github: false,
+    frontendGithubUrl: "",
+    backendGithubUrl: "https://github.com/Chizihn/gocabs-api", // Backend repo URL
+  },
+  {
+    title: "Gocabs - Web3 Ride Hailing App",
+    period: "2025",
+    description:
+      "GoCabs is a next-generation, event-focused shuttle booking application built on the Solana blockchain.",
     tech: [
       "React native",
       "Expo",
@@ -21,6 +52,7 @@ const projects = [
       "Express",
       "PostgreSQL",
       "Prisma",
+      "Solana",
       "SolanaPay",
       "Socket.io",
       "Nativewind",
@@ -59,12 +91,13 @@ const projects = [
     website: true,
     websiteUrl: "https://nelo-base.vercel.app",
     github: true,
-    frontendGithubUrl: "https://github.com/Chizihn/nelo-frontend", // Frontend repo URL
+    frontendGithubUrl: "https://github.com/Chizihn/nelo-frontend",
   },
   {
     title: "Glubon",
     period: "2025",
-    description: "A proptech saas",
+    description:
+      "A proptech platform for renting and buying of roperties across Nigeria.",
     tech: [
       "React native",
       "Expo",
@@ -214,9 +247,7 @@ export default function Projects() {
         </h2>
         <p className="text-foreground/70 text-lg">
           I&apos;ve worked on a variety of projects, from simple websites to
-          complex web
-          <br />
-          applications. Here are a few of my favorites.
+          complex web and mobile applications.
         </p>
       </div>
 
